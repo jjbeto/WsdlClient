@@ -1,0 +1,5 @@
+wsdl:
+  url: http://www.freewebservicesx.com/GetGoldPrice.asmx
+  action: http://freewebservicesx.com/GetCurrentGoldPrice
+  user: stefand22@mailinator.com
+  password: asdf
