@@ -1,8 +1,5 @@
 package com.thetaris.goldprice.api;
 
-import com.thetaris.goldprice.GoldpriceApplication;
-import com.thetaris.goldprice.config.MarshallConfig;
-import com.thetaris.goldprice.config.WsdlConfig;
 import com.thetaris.goldprice.service.GoldPriceService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -17,7 +14,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@SpringBootTest(classes = {GoldpriceApplication.class, MarshallConfig.class, WsdlConfig.class})
+@SpringBootTest
 public class ApiResourceIT {
 
     @Autowired
